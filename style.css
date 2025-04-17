@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.btn {
+    width: 173px;
+    background: #BA4270;
+    border-radius: 12px;
+    height: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 85%;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.div-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+.lit{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 20px;
+   
+   
+}
+h1{
+    color: #36536B;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+
+}
+.h11 {
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.55px;
+    width: 546;
+    height: 243;
+    gap: 20px;
+    color: #36536B;
+
+}
+.img33{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.img_ul{
+    background-color: #36536B;
+    height: 75px;
+    margin-top: 12px;
+}
+.imggg{
+    margin-top: 12px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .div-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .h22 {
+        font-family: DM Serif Display;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        text-align: center;
+        width: 573;
+        height: 122;
+        top: 484px;
+        left: 97px;
+        align-items: center;
+
+
+    }
+    .lit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img33{
+        margin-top: 200px;
+
+    }
+
+   
+}
+@media only screen and (max-width: 375) {
+    .div-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .h22 {
+        font-family: DM Serif Display;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: -0.25px;
+text-align: center;
+       display: flex;
+       justify-content: center;
+        align-items: center;
+
+
+    }
+    .img33{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+   
+}
